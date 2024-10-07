@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1Enlace</title>
+    <style>
+        body{ background-color: rgb(229, 238, 238);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+        .img-izquierda{
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            height: 50px;
+        }
+        .img-centrada{
+            height: 600px;
+        }
+        area{
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    
+    <img src="https://static.vecteezy.com/system/resources/previews/005/951/810/non_2x/back-button-interface-icon-illustration-vector.jpg" 
+    height="50px" class="img-izquierda" alt="boton retroceder" usemap="#mapa">
+    <map name="mapa"> 
+    <area shape="rect" coords="0,0,50,50" href="javascript: void(0);" onclick="history.back();" alt="boton retroceder" target="contenido"/>
+   
+    <img src="https://ih1.redbubble.net/image.1550140155.3071/flat,750x,075,f-pad,750x1000,f8f8f8.jpg" 
+    height="600px"
+   alt="bratz" class="img-centrada"usemap="#mapa">
+    
+        <area  shape="circle" coords="76,170,71"  href="http://127.0.0.1:5500/map1.html" alt="area 1">
+        <area  shape="circle" coords="267,153,66" href="http://127.0.0.1:5500/imagen.html" alt="area 2">
+        <area  shape="circle" coords="162,296,61" href="https://app.diagrams.net/" alt="area 3">
+        <area  shape="circle" coords="329,296,65" href="https://images.app.goo.gl/T1uxPjXLEZJUtEQBA" alt="area 4">
+    </map>
+    
+  
+    </body>
+    </html> 

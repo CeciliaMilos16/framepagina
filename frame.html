@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frame</title>
+
+   <style>
+    *{
+        margin: 0;
+        border: 0;
+        box-sizing: border-box;
+    }
+    body {
+        margin: 0;
+        height: 100vh;
+        overflow: hidden;
+    }
+
+    #contenedor1{
+        display: flex;
+        height: 17%;
+        width: 100%;
+       
+    }
+    #titulosuperior{
+        width: 100%;
+        height: 17%;
+        border: none;
+       
+    }
+    #contenedor{
+        display: flex;
+        height: 83%;
+        width: 100%;
+       
+    }
+    #indice{
+        width: 20%;
+        overflow-y: auto;
+        border: none;
+       
+    }
+    #contenido{
+        width: 80%;
+        overflow-y: auto;
+        border: none;
+       
+    }
+   </style>
+</head>
+<body>
+   
+    <iframe src="titulosuperior.html" name ="titutosuperior" frameborder="0" id="titulosuperior"></iframe>
+    
+   <div id="contenedor">
+    <iframe src="indice1.html"  id="indice" name="indice" frameborder="0"></iframe>
+    <iframe src="contenido.html"  id="contenido" name="contenido" frameborder="0"></iframe>
+    </div>
+</body>
+
+</html>
